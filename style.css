@@ -1,0 +1,27 @@
+#roll {
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+    transition: 500ms ease;
+}
+#roll:hover {
+    background-color: black;
+    text-shadow: white 0px 0px 10px;
+    color:white;
+    transition: 500ms ease;
+}
+
+#dice {
+    display:grid;
+    width:500px;
+    height:200px;
+    border:black 1px solid;
+    grid-column: 100px 100px 100px 100px 100px;
+    grid-row: 100px 100px;
+}
+
+#dice > div {
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+}
